@@ -16,11 +16,11 @@ public class Participante
     }
 
     // Auto-implemented readonly property:
-    public string Nome { get; set; }
-    public string Cpf { get; set; }
-    public string Telefone { get; set; }
-    public string Email { get; set; }
-    public DateTime DataNascimento { get; set; }
-    public DateTime DataCadastro { get; set; }
+    public string Nome { get; private set; }
+    public string Cpf { get; private set; }
+    public string Telefone { get; private set; }
+    public string Email { get; private set; }
+    public DateTime DataNascimento { get; private set; }
+    public DateTime DataCadastro { get; private set; }
 
 }

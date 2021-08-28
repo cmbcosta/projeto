@@ -9,6 +9,6 @@ public class EdicaoAtual
 
     }
     // Auto-implemented readonly property:
-    public DateTime DataCadastro { get; set; }
+    public DateTime DataCadastro { get; private set; }
 
 }
