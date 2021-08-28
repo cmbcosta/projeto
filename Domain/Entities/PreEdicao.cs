@@ -1,14 +1,14 @@
 using System;
 
-public class EdicaoHistorico
+public class PreEdicao
 {
     // Constructor that takes one argument:
-    public EdicaoHistorico(DateTime dataCadastro)
+    public PreEdicao(DateTime dataCadastro)
     {
         DataCadastro = dataCadastro;
 
     }
     // Auto-implemented readonly property:
-    public DateTime DataCadastro { get; set; }
+    public DateTime DataCadastro { get; private set; }
 
 }

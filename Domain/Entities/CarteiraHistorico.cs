@@ -14,9 +14,9 @@ public class CarteiraHistorico
     }
 
     // Auto-implemented readonly property:
-    public string NomeAcao { get; set; }
-    public decimal ValorComprado { get; set; }
-    public decimal ValorRentabilidade { get; set; }
-    public DateTime DataCadastro { get; set; }
+    public string NomeAcao { get; private set; }
+    public decimal ValorComprado { get; private set; }
+    public decimal ValorRentabilidade { get; private set; }
+    public DateTime DataCadastro { get; private set; }
 
 }

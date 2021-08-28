@@ -14,9 +14,9 @@ public class Edicao
     }
 
     // Auto-implemented readonly property:
-    public int NumEdicao { get; set; }
-    public DateTime DataInicial { get; set; }
-    public DateTime DataFinal { get; set; }
-    public string Status { get; set; }
+    public int NumEdicao { get; private set; }
+    public DateTime DataInicial { get; private set; }
+    public DateTime DataFinal { get; private set; }
+    public string Status { get; private set; }
 
 }

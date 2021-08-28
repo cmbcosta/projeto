@@ -13,8 +13,8 @@ public class PreCarteira
     }
 
     // Auto-implemented readonly property:
-    public string NomeAcao { get; set; }
-    public decimal ValorComprado { get; set; }
-    public DateTime DataCadastro { get; set; }
+    public string NomeAcao { get; private set; }
+    public decimal ValorComprado { get; private set; }
+    public DateTime DataCadastro { get; private set; }
 
 }
